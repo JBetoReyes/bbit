@@ -1,0 +1,33 @@
+/*
+1. SEO
+2. Box Model
+3. Typography
+4. Visuals
+5. Others
+*/
+
+:root {
+    /*
+        Colors
+    */
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7f5FF;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --gray: #bababa;
+    --off-white: #faf8f7;
+    --white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
