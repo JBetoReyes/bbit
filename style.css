@@ -25,6 +25,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -396,4 +397,123 @@ h3.table-comissions--title {
     line-height: 2.6rem;
     font-weight: bold;
     text-align: center;
+}
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto; 
+}
+
+.plans-title h2 {
+    color: var(--black);
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.plans-title p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
+    padding-top: 30px;
+    margin-bottom: 50px; 
+    font-weight: 500;
+}
+
+.plans-container--slider {
+    display: flex;
+}
+
+.plans-container--card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    padding: 0 15px;
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto 0;
+}
+
+.plans-card h3 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-top: 31px;
+    font-weight: 500;
+    color: black;
+}
+
+.plans-card--price {
+    margin-top: .8rem;
+    font-size: 5.2rem;
+    line-height: 6.3rem;
+    padding: 5px 0;
+    color: black;
+}
+
+.plans-card--dollar {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+    vertical-align: super;
+}
+
+.plans-card--savings {
+    color: #757575;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.plans-card--cta {
+    display: block;
+    background: #faf8f7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 48px;
+    margin: 16px auto 0 auto;
+    padding: 0px 5px 0px 5px;
+    width: 130px;
+}
+
+.plans-card--cta span {
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+    vertical-align: text-bottom;
+}
+
+.recommended {
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.4rem;
+    left: calc(50% - 60px);
+    padding: 8px;
+    position: absolute;
+    top: -15px;
+    width: 120px;
+    height: 31px;
 }
